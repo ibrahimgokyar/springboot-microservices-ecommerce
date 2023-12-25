@@ -30,8 +30,6 @@ import com.ucuncubinyil.springbootornek.service.impl.TutorialServiceImpl;
 public class TutorialController {
 	
 	private TutorialServiceImpl tutorialServiceImpl;
-	
-	
 	public TutorialController(TutorialServiceImpl tutorialServiceImpl )
 	{
 		this.tutorialServiceImpl = tutorialServiceImpl;

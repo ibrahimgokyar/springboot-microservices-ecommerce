@@ -20,7 +20,7 @@
 <td>${tutorial.description }</td>
 <td><a href="/editTutorial/${tutorial.id}">Düzenle</a>
 <td><a href="/tutorialSil2/${tutorial.id}"  
- onclick="return confirm('Silmek istediğinizden emin misiniz?');">Sil</a>
+ onclick="return confirm('Silmek istediğinizden emin misiniz?');">Sil</a></td>
 </tr>
 </c:forEach>
 </table>

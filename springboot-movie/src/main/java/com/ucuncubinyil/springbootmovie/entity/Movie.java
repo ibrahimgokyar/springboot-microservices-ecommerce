@@ -23,8 +23,8 @@ public class Movie {
 	private String description;
 	
 
-	@Column(name="imageUrl")
-	private String imageUrl;
+	@Column(name="imageurl")
+	private String imageurl;
 
 
 	public long getId() {
@@ -57,26 +57,29 @@ public class Movie {
 	}
 
 
-	public String getImageUrl() {
-		return imageUrl;
-	}
+	
 
 
-	public void setImageUrl(String imageUrl) {
-		this.imageUrl = imageUrl;
-	}
-
-
-	public Movie(long id, String title, String description, String imageUrl) {
+	public Movie(long id, String title, String description, String imageurl) {
 		super();
 		this.id = id;
 		this.title = title;
 		this.description = description;
-		this.imageUrl = imageUrl;
+		this.imageurl = imageurl;
 	}
 	
 	public Movie() { 
 		
+	}
+
+
+	public String getImageurl() {
+		return imageurl;
+	}
+
+
+	public void setImageurl(String imageurl) {
+		this.imageurl = imageurl;
 	}
 	
 
